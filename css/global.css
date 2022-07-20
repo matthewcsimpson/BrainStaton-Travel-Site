@@ -1,0 +1,57 @@
+* {
+  border: 1px dotted black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #335576;
+}
+
+/* ------------------ main section ------------------ */
+
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item {
+  margin: 1.25rem 4rem;
+}
+
+.header__name {
+  color: #335576;
+  padding: 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* .header__navlist {} */
+
+.header__navitem {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+.header__navlink {
+  padding: 1.25rem 0rem;
+  margin: 0rem 1.25rem;
+  text-decoration: none;
+  color: black;
+}
+
+.header__navlink--active {
+  border-bottom: 5px solid #db784e;
+}
+
+.header__navlink:hover {
+  border-bottom: 5px solid #335576;
+}
+
+.header__navlink:visited {
+  color: black;
+}
