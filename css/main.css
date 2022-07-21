@@ -54,34 +54,40 @@
 /* ------------------ main section ------------------ */
 
 /* .recommend {} */
+/* .cardcontainer {} */
 
 .recommend__heading {
   display: inline-block;
   margin: 4rem 2rem 2rem 4rem;
 }
 
-.card__link {
-  text-decoration: none;
-}
-
-.card__text {
+.card--mainpage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   color: white;
+  text-decoration: none;
   font-weight: bolder;
   font-size: 2rem;
   padding: 0.75rem;
 }
 
+/* .card__mainpage--text {} */
+
 .card--hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card--iceland {
   background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card--greece {
   background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
