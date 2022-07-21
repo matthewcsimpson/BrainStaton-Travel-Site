@@ -8,7 +8,7 @@
 }
 
 .hero__content {
-  padding: 4rem;
+  padding: 3rem 6rem;
   min-height: 40vh;
   max-width: 45%;
 }
@@ -32,7 +32,8 @@
 
 .hero__heading {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 2.25rem;
+  font-weight: bold;
 }
 
 .hero__description {
@@ -56,5 +57,31 @@
 
 .recommend__heading {
   display: inline-block;
-  margin: 2rem auto 2rem 4rem;
+  margin: 4rem 2rem 2rem 4rem;
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__text {
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 0.75rem;
+}
+
+.card--hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+}
+
+.card--iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+}
+
+.card--greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
 }
