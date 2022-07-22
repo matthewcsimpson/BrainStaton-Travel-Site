@@ -1,12 +1,15 @@
 * {
-  border: 1px dotted black;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted black;
 }
 
 .wholesite {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #335576;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------------------ main section ------------------ */
@@ -27,7 +30,7 @@
   box-sizing: border-box;
   color: #335576;
   padding: 1.25rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -44,17 +47,15 @@
   border-bottom: 5px solid #335576;
 }
 
-/* .header__navlist {} */
-
 .header__navitem {
   display: inline-block;
   box-sizing: border-box;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .header__navlink {
   padding: 1.25rem 0rem;
-  margin: 0rem 1.25rem;
+  margin: 0rem 0.5rem;
   text-decoration: none;
   color: black;
 }
@@ -97,32 +98,50 @@
   background-color: #fefaf5;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  padding: 2rem 4rem;
+  padding: 1rem 7rem;
+}
+
+.page-footer__item {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-footer__item-subtitle {
   color: #db7a4e;
   text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
 }
 
-.page-footer__card {
-  display: flex;
-  flex-direction: column;
+.page-footer__item-subtitle--hidden {
+  visibility: hidden;
 }
 
-/* .page-footer__hours-container {
+.page-footer__item-desc {
+  vertical-align: bottom;
+}
+
+.page-footer__contents {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-} */
+  margin-top: 2rem;
+  line-height: 1.875rem;
+}
 
-/* .page-footer__hours {
-  display: flex;
+.page-footer__contents--column {
   flex-direction: column;
-} */
-.page-footer__social-container {
-  width: 100%;
+}
+
+.page-footer__hours {
+  display: flex;
+  /* width: 33%; */
+  flex-direction: column;
+}
+
+.page-footer__icon-container {
   display: flex;
   justify-content: space-between;
 }
@@ -132,5 +151,12 @@
   max-height: 1.875rem;
 }
 
-/* .page-footer__social-container{} */
-/* .page-footer__social-icon{} */
+.page-footer__item--middle {
+  width: 50%;
+  /* padding: 1rem 10rem; */
+  /* padding: 1rem 6rem; */
+}
+
+.page-footer__item--outsides {
+  width: 24%;
+}
