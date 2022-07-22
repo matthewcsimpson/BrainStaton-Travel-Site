@@ -5,56 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/global.css" />
-    <link rel="stylesheet" type="text/css" href="../css/destinations.css" />
-    <title>Hawaii - Travel Site</title>
+    <link rel="stylesheet" type="text/css" href="../css/get-started.css" />
+    <title>Get Started! - Travel Site</title>
 </head>
+
 
 <body class="wholesite">
     <header class="header">
         <div class="header__item header__name"><a href="/" class="header__name--link">Travel Site</a></div>
         <nav class="header__item header__nav">
             <ol class="header__navlist">
-                <li class="header__navitem"><a href="/" class="header__navlink">Home</a>
-                </li>
-                <li class="header__navitem"><a href="./get-started.html" class="header__navlink">Get Started</a></li>
-                <li class="header__navitem"><a href="../pages/hawaii.html"
-                        class="header__navlink header__navlink--active">Hawaii</a></li>
+                <li class="header__navitem"><a href="/" class="header__navlink">Home</a></li>
+                <li class="header__navitem"><a href="./get-started.html"
+                        class="header__navlink  header__navlink--active">Get Started</a></li>
+                <li class="header__navitem"><a href="../pages/hawaii.html" class="header__navlink">Hawaii</a></li>
                 <li class="header__navitem"><a href="../pages/iceland.html" class="header__navlink">Iceland</a></li>
                 <li class="header__navitem"><a href="../pages/greece.html" class="header__navlink">Greece</a></li>
             </ol>
         </nav>
     </header>
 
-    <main class="destination destination--hawaii">
-        <h2 class="destination-heading">Hawaii</h2>
+    <main class="get-started">
+        <h2 class="get-started__heading">Start your journey!</h2>
         <div class="cardcontainer cardcontainer--destination">
-            <div class="card card--destination">
-                <h3 class="card__item card__item--heading">Friday</h3>
-                <ul class="card__item-list">
-                    <li class="card__item card__item--text">Breakfast</li>
-                    <li class="card__item card__item--text">Lunch</li>
-                    <li class="card__item card__item--text">Dinner</li>
-                    <li class="card__item card__item--text">Snorkelling</li>
-                </ul>
+            <div class="card card--get-started">
+                <h3 class="card__item card__item--heading">Contact Us!</h3>
+                <form class="card__form" action="#">
+                    <label class="card__form-label" for="destination">Where do you want to go?</label>
+                    <select class="card__form-select" name="destination" id="destination">
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Hawaii">Iceland</option>
+                        <option value="Hawaii">Greece</option>
+                    </select>
+                    <label class="card__form-label" for="your_name">Your Name...</label>
+                    <input class="card__form-textinput" type="text" id="your_name" placeholder="Your Name">
+                    <label class="card__form-label" for="your_email">Your E-mail...</label>
+                    <input class="card__form-textinput" type="text" id="your_email" placeholder="Your E-Mail">
+
+                    <input type="button" class="button button--get-started" value="Send me the information!">
+
+                </form>
+
             </div>
-            <div class="card card--destination">
-                <h3 class="card__item card__item--heading">Saturday</h3>
-                <ul class="card__item-list">
-                    <li class="card__item card__item--text">Breakfast</li>
-                    <li class="card__item card__item--text">Lunch</li>
-                    <li class="card__item card__item--text">Dinner</li>
-                    <li class="card__item card__item--text">Snorkelling</li>
-                </ul>
-            </div>
-            <div class="card card--destination">
-                <h3 class="card__item card__item--heading">Sunday</h3>
-                <ul class="card__item-list">
-                    <li class="card__item card__item--text">Breakfast</li>
-                    <li class="card__item card__item--text">Lunch</li>
-                    <li class="card__item card__item--text">Dinner</li>
-                    <li class="card__item card__item--text">Snorkelling</li>
-                </ul>
-            </div>
+
         </div><!-- card container-->
     </main>
 

@@ -50,11 +50,22 @@
 .card__item--heading {
   border-bottom: 1px solid black;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.card__item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  /* background-color: rebeccapurple; */
 }
 
 .card__item--text {
+  list-style: none;
   text-align: center;
-  height: 3rem;
   line-height: 3rem;
   background-color: #fefaf5;
+  margin: 1rem 0rem;
 }
