@@ -1,0 +1,60 @@
+.destination--hawaii {
+  background: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+}
+
+.destination--iceland {
+  background: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+}
+
+.destination--greece {
+  background: url(../assets/Images/greece.jpg);
+  background-size: cover;
+}
+
+.destination {
+  padding: 3.875rem;
+  margin-top: 3.875rem;
+  flex-grow: 1;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-heading {
+  font-size: 4rem;
+  color: white;
+  align-self: flex-start;
+  margin-bottom: 3.875rem;
+}
+
+.card--destination {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem 1rem 3rem;
+}
+
+.card__item {
+  color: black;
+  width: 100%;
+}
+
+.card__item--heading {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.card__item--text {
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #fefaf5;
+}
