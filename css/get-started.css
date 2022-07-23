@@ -3,7 +3,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 3.875rem;
   margin-top: 3.875rem;
   flex-grow: 1;
   min-height: 70vh;
@@ -13,11 +12,19 @@
   align-items: center;
 }
 
-.get-started__heading {
+/* .get-started__heading {
   font-size: 4rem;
   color: white;
   align-self: flex-start;
   margin-bottom: 3.875rem;
+} */
+
+.get-started__heading {
+  display: block;
+  width: 85%;
+  margin: 2rem auto 2rem;
+  color: white;
+  font-size: 4rem;
 }
 
 .card--get-started {
