@@ -1,5 +1,5 @@
-Matthew Simpson
-Travel Site Project - BrainStation.io
+Matthew Simpson    
+Travel Site Project - BrainStation    
 July 2022
 
 A simple travel agency website created using HTML & CSS.
